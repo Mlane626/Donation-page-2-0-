@@ -1,0 +1,63 @@
+html {
+    background-image: url("img/fpllc.png") ;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #C2B280;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    height: 1000px;
+}
+
+section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #C2B280;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    height: 100px;
+}

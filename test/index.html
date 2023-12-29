@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Support Our Cause</h1>
+    </header>
+    <main id = "backgroundLogo">
+        <section id="donation-form">
+            <h2>Make a Donation</h2>
+            <form id="payment-form">
+                <label for="amount">Amount ($)</label>
+                <input type="number" id="amount" name="amount" required>
+
+                <label for="card-number">Card Number</label>
+                <input type="text" id="card-number" name="card-number" required>
+
+                <label for="expiry-date">Expiry Date</label>
+                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" required>
+
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" required>
+
+                <button type="submit">Donate</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; F.I.T.S | All Rights Reserved</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
